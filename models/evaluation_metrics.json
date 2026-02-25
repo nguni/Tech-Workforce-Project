@@ -1,0 +1,20 @@
+{
+  "features": [
+    "employees_start",
+    "revenue_billions_usd",
+    "stock_price_change_pct",
+    "gdp_growth_us_pct",
+    "unemployment_rate_us_pct",
+    "month"
+  ],
+  "train_cutoff_year": 2018,
+  "prophet_regressors": [
+    "gdp_growth",
+    "unemployment_rate",
+    "covid_period"
+  ],
+  "changepoint_prior_scale": 0.5,
+  "lr_random_split_r2": 0.24992610809409088,
+  "lr_time_split_r2": -0.434364863501594,
+  "prophet_full_mae": 244076.01398098157
+}
